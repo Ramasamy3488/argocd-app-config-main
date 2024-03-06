@@ -10,7 +10,8 @@ spec:
   containers:
     - name: webcon
 #      image: ramasamy123/dozecafe:v1
-      image: ramasamy123/wavecafe:v1
+#      image: ramasamy123/wavecafe:v1
+      image: ramasamy123/jewellery:v1
       imagePullPolicy: Always
       ports:
         - containerPort: 80
